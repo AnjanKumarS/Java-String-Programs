@@ -5,7 +5,7 @@ public class RemoveSpaces {
         String str1 = s.trim();//trim() removes starting and ending values
         System.out.println(str1);
 
-        String str2 = str1.replaceAll("\\s", "");
+        String str2 = str1.replaceAll("\\s", "");// "//s"=Represents single space is Replaced with ""(empty)
         System.out.println(str2);
     }
 }
